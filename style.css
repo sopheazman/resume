@@ -1,0 +1,153 @@
+body {
+    background-image:url(images/background.png);
+    background-attachment: fixed;
+}
+
+
+  /* Smooth scrolling for anchor links */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Back to Top Button */
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff99cc;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+  }
+
+  #back-to-top:hover {
+    background-color: #ff6699;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
+  
+  
+
+
+/*Footer Section*/
+footer{
+background-color: #a8738e;
+}
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0%;
+}
+.footerContainer{
+width: 100%;
+height: fit-content;
+margin: 0;
+padding: 0;
+gap: 0;
+}
+.socialIcons{
+display: flex;
+justify-content: center;
+}
+.socialIcons a{
+text-decoration: none;
+padding:  10px;
+background-color: rgb(126, 23, 75);
+margin: 10px;
+border-radius: 50%;
+}
+.socialIcons a i{
+font-size: 2em;
+color: black;
+opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+background-color: #111;
+transition: 0.5s;
+}
+.socialIcons a:hover i{
+color: white;
+transition: 0.5s;
+}
+.footerNav{
+margin: 30px 0;
+}
+.footerNav ul{
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+.footerNav ul li a{
+font-family: 'Times New Roman', Times, serif;
+color:rgb(0, 0, 0);
+margin: 20px;
+text-decoration: none;
+font-size: 1.2em;
+opacity: 0.7;
+transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+opacity: 1;
+}
+.footerBottom{
+background-color: #8a4141;
+padding: 10px;
+text-align: center;
+font: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerBottom p{
+color: rgb(26, 1, 1);
+}
+.designer{
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+}
+@media (max-width: 700px){
+.footerNav ul{
+flex-direction: column;
+} 
+.footerNav ul li{
+width:100%;
+text-align: center;
+margin: 10px;
+}
+.socialIcons a{
+padding: 8px;
+margin: 4px;
+}
+}
+.container{
+height: 50vh;
+display:contents;
+align-items:baseline;
+justify-items: left;
+font:bold 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Date{
+font-size: 20px !important;
+justify-items: left;
+color: #111;
+}
+.clock ul{
+list-style: none;
+display: flex;
+font-size: 20px;
+gap: 15px;
+justify-content:center;
+color: #111;
+}
